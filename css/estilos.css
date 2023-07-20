@@ -1,0 +1,229 @@
+* {
+    margin: auto;
+    padding: 0;
+    text-align: center;
+    font-family: 'Open Sans Condensed';
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.titulo {
+    padding-top: 5px;
+    color: black;
+    letter-spacing: 20px;
+}
+
+#titulo {
+    width: 70%;
+    color: red;
+    font-stretch: condensed;
+    background: #f1f1f1;
+    letter-spacing: 13px;
+
+}
+
+#tr {
+    background: #f1f1f1;
+    color: red;
+    width: 15%;
+}
+
+.table {
+    border: none;
+}
+
+section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.botonera-css {
+    padding: 10px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background: #f1f1f1;
+
+
+}
+
+.c-img {
+    width: auto;
+    height: auto;
+    padding-top: 10px;
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    color: white;
+}
+
+
+
+h1 {
+    font-size: 20px;
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    color: #fff;
+
+}
+
+.txt {
+    text-decoration: none;
+    width: 100%;
+    position: absolute;
+}
+
+.h1:active {
+    color: silver;
+    text-decoration: none;
+}
+
+h1:hover {
+    text-decoration: none;
+    color: red;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+
+
+.container {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding-top: 10px;
+    -ms-flex-line-pack: center;
+    align-content: center;
+
+}
+
+.tablas {
+
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-line-pack: center;
+    align-content: center;
+}
+
+header {
+    padding: 10px;
+    background: #f1f1f1;
+}
+
+.to-top {
+    background: blue;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    width: 50px;
+    height: 50px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    border-radius: 10%;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    font-size: 32px;
+    color: white;
+    text-decoration: none;
+    opacity: 0;
+    pointer-events: none;
+    -webkit-transition: all .4s;
+    transition: all .4s;
+    padding-bottom: 5px;
+}
+
+.whapp {
+    background: black;
+    position: fixed;
+    top: 100px;
+    left: -2px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    border-radius: 10%;
+    font-size: 30px;
+}
+
+.a {
+    text-decoration: none;
+}
+
+.to-top.active {
+    bottom: 100px;
+    pointer-events: auto;
+    text-decoration: none;
+    opacity: 1;
+
+}
+
+h1 {
+
+    letter-spacing: 8px;
+}
+
+.subir {
+    font-size: 15px;
+
+}
+
+
+footer {
+    background: black;
+    color: aliceblue;
+    display: flex;
+    align-self: auto;
+}
+
+.delivery {
+    width: 60%;
+    color: #fff;
+    padding: 10px 10px 20px 20px;;
+    letter-spacing: 4px;
+    text-align: left;
+    line-height: 130%;
+}
+
+.estudio a, .delivery a{
+    color: #fff;
+    
+    
+}
+
+.estudio {
+    letter-spacing: 5px;
+    text-justify:inter-word;
+    line-height: 100%;
+    font-size: 10px;
+
+}
+
+.fab {
+    color: limegreen;
+ }
